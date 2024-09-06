@@ -1,0 +1,71 @@
+h1 {
+  background-color: #002171;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+nav {
+  background-color: #bbdefb;
+  color: #1976d2;
+  font-weight: bold;
+  text-align: center;
+}
+
+nav a {
+  padding: 5px;
+  color: #002171;
+}
+
+h2 {
+  color: #1976d2;
+}
+
+p {
+  color: #666666;
+}
+
+body {
+  padding: 5px;
+  font-size: 25px;
+  font-family: "Times New Roman", Times, serif;
+  width: 90%;
+  margin-right: auto;
+  margin-left: auto;
+  border: solid 3px;
+}
+
+footer p {
+  text-align: center;
+  margin: 0;
+  font-size: small;
+}
+
+#address p {
+  padding: 0;
+  margin: 0;
+}
+
+span {
+  font-size: 40px;
+  color: #1976d2;
+}
+
+dt {
+  font-size: 30px;
+  color: #002171;
+}
+
+dd {
+  text-indent: 5%;
+}
+
+#yurt-img img {
+  height: 100%;
+  width: 100%;
+}
+
+#home-img img {
+  height: 100%;
+  width: 100%;
+}
