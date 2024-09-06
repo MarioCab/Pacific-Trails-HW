@@ -1,58 +1,77 @@
 h1 {
   color: white;
   text-align: center;
-  height: 100%;
-  width: 100%;
+  padding-top: 0.5em;
 }
 
 nav {
   color: #1976d2;
   font-weight: bold;
   text-align: center;
+  padding-top: 0.5em;
+  padding-right: 0.5em;
+  padding-bottom: 0.5em;
+}
+
+nav p {
+  margin: 0;
+  padding-top: 0.5em;
+  padding-right: 0.5em;
+  padding-bottom: 0.5em;
 }
 
 nav a {
-  padding: 5px;
   color: #002171;
   text-decoration: none;
+  padding-top: 0.5em;
+  padding-right: 0.5em;
+  padding-bottom: 0.5em;
 }
 
 h2 {
   color: #1976d2;
   margin: 0%;
+  padding: 1;
 }
-
+h3 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
 p {
   color: #666666;
+  padding: 1;
 }
 
-body {
+#wrapper {
   margin: 3%;
   padding: 0%;
   font-size: 25px;
   font-family: "Times New Roman", Times, serif;
-  background: linear-gradient(white, lightblue);
   min-width: 960px;
   max-width: 2048px;
-  box-shadow: 20px, 20px, 20px, black;
+  box-shadow: black 3px 5px;
+  background-color: #ffffff;
+}
+
+html {
+  background: linear-gradient(white, lightblue);
 }
 
 main {
   background-color: white;
   margin: 0%;
-  padding: 0%;
+  padding-left: 2em;
+  padding-right: 2em;
 }
 
 footer {
   background-color: white;
   margin: 0%;
-  padding: 0%;
+  padding: 1em;
 }
 
 footer p {
   text-align: center;
   margin: 0%;
-  padding: 0%;
   font-size: 15px;
   background-color: white;
 }
@@ -105,9 +124,12 @@ span {
 }
 
 .hero-image {
-  background: url(../images/sunset.jpg);
-  background-size: cover;
-  background-position: center, center;
-  overflow: hidden;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../images/sunset.jpg");
+  height: 72px;
+  background-position: right;
   background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  background-clip: border-box;
 }
