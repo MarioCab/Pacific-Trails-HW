@@ -1,12 +1,11 @@
 h1 {
   background-color: #002171;
   color: white;
-  padding: 10px;
+  padding: 1%;
   text-align: center;
 }
 
 nav {
-  background-color: #bbdefb;
   color: #1976d2;
   font-weight: bold;
   text-align: center;
@@ -15,10 +14,12 @@ nav {
 nav a {
   padding: 5px;
   color: #002171;
+  text-decoration: none;
 }
 
 h2 {
   color: #1976d2;
+  padding: 1%;
 }
 
 p {
@@ -26,7 +27,6 @@ p {
 }
 
 body {
-  padding: 5px;
   font-size: 25px;
   font-family: "Times New Roman", Times, serif;
   width: 90%;
@@ -38,7 +38,7 @@ body {
 footer p {
   text-align: center;
   margin: 0;
-  font-size: small;
+  font-size: 15px;
 }
 
 #address p {
@@ -54,10 +54,7 @@ span {
 dt {
   font-size: 30px;
   color: #002171;
-}
-
-dd {
-  text-indent: 5%;
+  padding: 1%;
 }
 
 #yurt-img img {
