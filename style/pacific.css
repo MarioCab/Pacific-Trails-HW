@@ -2,78 +2,71 @@ h1 {
   color: white;
   text-align: center;
   padding-top: 0.5em;
+  background-image: url("../images/sunset.jpg");
+  height: 72px;
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
 }
 
 nav {
-  color: #1976d2;
-  font-weight: bold;
   text-align: center;
-  padding-top: 0.5em;
-  padding-right: 0.5em;
-  padding-bottom: 0.5em;
-}
-
-nav p {
+  align-items: center;
   margin: 0;
+}
+nav p {
+  color: #1976d2;
   padding-top: 0.5em;
   padding-right: 0.5em;
   padding-bottom: 0.5em;
+  margin: 0;
 }
 
 nav a {
   color: #002171;
   text-decoration: none;
-  padding-top: 0.5em;
-  padding-right: 0.5em;
-  padding-bottom: 0.5em;
+  margin: 0;
 }
 
 h2 {
   color: #1976d2;
   margin: 0%;
-  padding: 1;
+  padding: 1%;
 }
 h3 {
   font-family: Georgia, "Times New Roman", Times, serif;
 }
 p {
   color: #666666;
-  padding: 1;
 }
 
 #wrapper {
-  margin: 3%;
-  padding: 0%;
   font-size: 25px;
-  font-family: "Times New Roman", Times, serif;
   min-width: 960px;
   max-width: 2048px;
   box-shadow: black 3px 5px;
   background-color: #ffffff;
 }
 
-html {
+body {
   background: linear-gradient(white, lightblue);
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 10%;
 }
 
 main {
-  background-color: white;
-  margin: 0%;
   padding-left: 2em;
   padding-right: 2em;
+  display: block;
 }
 
 footer {
-  background-color: white;
-  margin: 0%;
-  padding: 1em;
-}
-
-footer p {
   text-align: center;
   margin: 0%;
   font-size: 15px;
   background-color: white;
+  padding: 1em;
 }
 
 #address p {
@@ -102,34 +95,40 @@ footer p {
   padding: 0;
   margin: 0;
 }
-span {
+
+.resort {
   font-size: 40px;
   color: #1976d2;
 }
 
-#yurt-img img {
-  height: 100%;
-  width: 100%;
+#yurt-hero {
+  background-image: url(../images/yurt.jpg);
+  background-size: 100%, 100%;
+  height: 300px;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
-#home-img img {
-  height: 100%;
-  width: 100%;
-  background-color: white;
+#home-hero {
+  background-image: url(../images/coast.jpg);
+  background-size: 100%, 100%;
+  height: 300px;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
-#activities-img img {
-  height: 100%;
-  width: 100%;
+#trail-hero {
+  background-image: url(../images/trail.jpg);
+  background-size: 100%, 100%;
+  height: 300px;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
-.hero-image {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("../images/sunset.jpg");
+#sunset-image {
+  background-image: url("../images/sunset.jpg");
   height: 72px;
   background-position: right;
   background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-  background-clip: border-box;
+  background-size: 100%, 100%;
 }
