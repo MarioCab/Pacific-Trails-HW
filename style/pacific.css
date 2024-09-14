@@ -2,31 +2,49 @@ h1 {
   color: white;
   text-align: center;
   padding-top: 0.5em;
-  background-image: url("../images/sunset.jpg");
-  height: 72px;
-  background-position: right;
-  background-repeat: no-repeat;
-  background-size: cover;
+  height: 120px;
+  background-color: #002171;
   margin: 0;
+  font-size: 3em;
+  letter-spacing: 0.25em;
 }
 
 nav {
-  text-align: center;
   align-items: center;
   margin: 0;
+  padding: 0;
+  font-size: 1.25em;
+  float: left;
+  display: inline;
+  width: 160px;
+  position: fixed;
 }
-nav p {
+.nav-ul li {
   color: #1976d2;
   padding-top: 0.5em;
   padding-right: 0.5em;
   padding-bottom: 0.5em;
   margin: 0;
+  list-style: none;
 }
 
 nav a {
-  color: #002171;
+  color: #5c7fa3;
   text-decoration: none;
   margin: 0;
+}
+
+nav a:hover {
+  color: #a52a2a;
+}
+
+nav a:visited {
+  color: #344873;
+}
+
+.nav-ul {
+  padding: 1em;
+  list-style-type: none;
 }
 
 h2 {
@@ -50,6 +68,10 @@ footer p {
   font-size: small;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 #wrapper {
   font-size: 25px;
   min-width: 960px;
@@ -59,10 +81,11 @@ footer p {
   width: 80%;
   margin-right: auto;
   margin-left: auto;
+  background: linear-gradient(white, lightblue);
 }
 
 body {
-  background: linear-gradient(white, lightblue);
+  background-color: #eaeaea;
   font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -70,6 +93,9 @@ main {
   padding-left: 2em;
   padding-right: 2em;
   display: block;
+  background-color: #ffffff;
+  margin-left: 170px;
+  overflow: auto;
 }
 
 footer {
@@ -123,6 +149,7 @@ footer {
   height: 300px;
   background-repeat: no-repeat;
   background-position: center;
+  margin-left: 170px;
 }
 
 #home-hero {
@@ -131,6 +158,7 @@ footer {
   height: 300px;
   background-repeat: no-repeat;
   background-position: center;
+  margin-left: 170px;
 }
 
 #trail-hero {
@@ -139,6 +167,7 @@ footer {
   height: 300px;
   background-repeat: no-repeat;
   background-position: center;
+  margin-left: 170px;
 }
 
 #sunset-image {
