@@ -129,13 +129,18 @@ footer {
   column-gap: 10%;
 }
 
-#activity-info p {
-  padding: 0;
-  margin: 0;
+#yurt-info section {
+  overflow: hidden;
+}
+
+#activity-info {
+  column-count: 3;
+  display: flex;
+  column-gap: 10%;
 }
 
 .resort {
-  font-size: 40px;
+  font-size: 30px;
   color: #1976d2;
 }
 
