@@ -123,21 +123,10 @@ footer {
   margin: 0;
 }
 
-#yurt-info dd {
-  padding: 0;
-  margin: 0;
-}
-
-#yurt-info dl {
-  padding: 1%;
-  margin: 0;
-}
-
-#yurt-info dt {
-  padding: 1%;
-  margin: 0;
-  color: #002171;
-  font-size: 30px;
+#yurt-info {
+  column-count: 3;
+  display: flex;
+  column-gap: 10%;
 }
 
 #activity-info p {
