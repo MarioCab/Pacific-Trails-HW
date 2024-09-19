@@ -88,16 +88,12 @@ footer p {
 #wrapper {
   min-width: 960px;
   max-width: 2048px;
-  box-shadow: black 3px 5px;
   background-color: #ffffff;
-  width: 80%;
-  margin-right: auto;
-  margin-left: auto;
   background: linear-gradient(white, lightblue);
 }
 
 body {
-  background-color: #eaeaea;
+  background-color: #90c7e3;
   font-family: Arial, Helvetica, sans-serif;
 }
 
