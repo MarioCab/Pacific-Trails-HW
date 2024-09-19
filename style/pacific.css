@@ -13,6 +13,7 @@ h1 {
 
 #header-area {
   height: 120px;
+  font-size: 25px;
 }
 
 #header-area a:link {
@@ -37,6 +38,7 @@ nav {
   display: inline;
   width: 160px;
   position: fixed;
+  font-size: 20px;
 }
 #nav-ul li {
   margin: 0;
@@ -84,7 +86,6 @@ footer p {
 }
 
 #wrapper {
-  font-size: 25px;
   min-width: 960px;
   max-width: 2048px;
   box-shadow: black 3px 5px;
