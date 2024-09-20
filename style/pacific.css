@@ -2,18 +2,19 @@
   box-sizing: border-box;
 }
 
-h1 {
-  text-align: center;
-  padding-top: 0.5em;
-  background-color: #002171;
+body {
+  background-color: #90c7e3;
+  font-family: Arial, Helvetica, sans-serif;
   margin: 0;
-  font-size: 3em;
-  letter-spacing: 0.25em;
+}
+
+#wrapper {
+  background-color: #ffffff;
+  background: linear-gradient(white, lightblue);
 }
 
 #header-area {
-  height: 120px;
-  font-size: 25px;
+  padding: 1em;
 }
 
 #header-area a:link {
@@ -29,20 +30,28 @@ h1 {
   color: #90c7e3;
 }
 
+h1 {
+  text-align: center;
+  background-color: #002171;
+  margin: 0;
+  font-size: 1.5em;
+}
+
 nav {
   align-items: center;
   margin: 0;
-  padding: 0;
   font-size: 0.9em;
-  float: left;
   display: inline;
-  width: 160px;
-  position: fixed;
-  font-size: 20px;
+  text-align: center;
+  background-color: white;
 }
 #nav-ul li {
-  margin: 0;
-  font-weight: bold;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  padding-left: 1em;
+  padding-right: 1em;
+  width: 100%;
+  border-bottom: 1px solid;
 }
 
 #nav-ul a:link {
@@ -60,8 +69,19 @@ nav {
 }
 
 #nav-ul {
-  padding: 1em;
-  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  container: flex;
+  flex-direction: column;
+}
+
+main {
+  padding-left: 2em;
+  padding-right: 2em;
+  display: block;
+  background-color: #ffffff;
+  margin-left: 170px;
+  overflow: auto;
 }
 
 h2 {
@@ -80,62 +100,6 @@ dt {
   font-weight: bold;
 }
 
-footer p {
-  font-style: italic;
-  font-size: small;
-}
-
-#wrapper {
-  min-width: 960px;
-  max-width: 2048px;
-  background-color: #ffffff;
-  background: linear-gradient(white, lightblue);
-}
-
-body {
-  background-color: #90c7e3;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-main {
-  padding-left: 2em;
-  padding-right: 2em;
-  display: block;
-  background-color: #ffffff;
-  margin-left: 170px;
-  overflow: auto;
-}
-
-footer {
-  text-align: center;
-  margin: 0%;
-  font-size: 15px;
-  background-color: white;
-  padding: 1em;
-  margin-left: 170px;
-}
-
-#address p {
-  padding: 0;
-  margin: 0;
-}
-
-#yurt-info {
-  column-count: 3;
-  display: flex;
-  column-gap: 10%;
-}
-
-#yurt-info section {
-  overflow: hidden;
-}
-
-#activity-info {
-  column-count: 3;
-  display: flex;
-  column-gap: 10%;
-}
-
 .resort {
   font-size: 30px;
   color: #1976d2;
@@ -146,31 +110,66 @@ footer {
   color: #1976d2;
 }
 
+#mobile {
+}
+
+footer p {
+  font-style: italic;
+  font-size: small;
+}
+
+footer {
+  text-align: center;
+  margin: 0%;
+  font-size: 15px;
+  background-color: white;
+  padding: 1em;
+}
+
+#address p {
+  padding: 0;
+  margin: 0;
+}
+
+#yurt-info {
+  column-count: 3;
+  display: flex;
+}
+
+#yurt-info section {
+  overflow: hidden;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+}
+
+#activity-info {
+  column-count: 3;
+  display: flex;
+  column-gap: 10%;
+}
+
 #yurt-hero {
   background-image: url(../images/yurt.jpg);
-  background-size: 100%, 100%;
+  background-size: 200%, 100%;
   height: 300px;
   background-repeat: no-repeat;
   background-position: center;
-  margin-left: 170px;
 }
 
 #home-hero {
   background-image: url(../images/coast.jpg);
-  background-size: 100%, 100%;
+  background-size: 200%, 100%;
   height: 300px;
   background-repeat: no-repeat;
   background-position: center;
-  margin-left: 170px;
 }
 
 #trail-hero {
   background-image: url(../images/trail.jpg);
-  background-size: 100%, 100%;
+  background-size: 200%, 100%;
   height: 300px;
   background-repeat: no-repeat;
   background-position: center;
-  margin-left: 170px;
 }
 
 #sunset-image {
