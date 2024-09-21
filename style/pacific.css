@@ -3,28 +3,22 @@
 }
 
 body {
-  background-color: #eaeaea;
+  background-color: #90c7e3;
   color: #666666;
   font-family: Verdana, Arial, sans-serif;
+  margin: 0;
 }
 
 #wrapper {
   background-color: #ffffff;
-  background-image: linear-gradient(to bottom, #ffffff, #90c7e3);
   background-repeat: no-repeat;
-  margin-left: auto;
-  margin-right: auto;
-  width: 80%;
-  min-width: 960px;
-  max-width: 2048px;
-  box-shadow: 3px 3px 3px #777;
 }
 
 header {
   background-color: #002171;
   color: #ffffff;
   font-family: Georgia, serif;
-  height: 120px;
+  padding: 1em;
 }
 
 header a {
@@ -44,10 +38,8 @@ header a:hover {
 }
 
 h1 {
-  font-size: 3em;
-  letter-spacing: 0.25em;
+  font-size: 1.5em;
   text-align: center;
-  padding-top: 0.5em;
 }
 
 h2 {
@@ -60,12 +52,9 @@ h3 {
 }
 
 nav {
-  float: left;
   font-size: 1.2em;
-  font-weight: bold;
-  padding: 0;
-  position: fixed;
-  width: 160px;
+  background-color: white;
+  text-align: center;
 }
 
 nav a {
@@ -86,16 +75,27 @@ nav a:hover {
 
 nav ul {
   list-style-type: none;
+  padding-left: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+nav li {
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
   padding-left: 1em;
+  padding-right: 1em;
+  width: 100%;
+  border-bottom: solid 1px;
 }
 
 main {
-  background-color: #fff;
   display: block;
-  margin-left: 170px;
-  overflow: auto;
-  padding-left: 2em;
-  padding-right: 2em;
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-top: 0;
+  padding-bottom: 0;
 }
 
 dt {
@@ -112,38 +112,35 @@ dt {
   height: 300px;
   background-image: url(../images/coast.jpg);
   background-repeat: no-repeat;
-  background-size: 100% 100%;
-  margin-left: 170px;
+  background-size: 200% 100%;
 }
 
 #yurt-hero {
   height: 300px;
   background-image: url(../images/yurt.jpg);
   background-repeat: no-repeat;
-  background-size: 100% 100%;
-  margin-left: 170px;
+  background-size: 200% 100%;
 }
 
 #trail-hero {
   height: 300px;
   background-image: url(../images/trail.jpg);
   background-repeat: no-repeat;
-  background-size: 100% 100%;
-  margin-left: 170px;
+  background-size: 200% 100%;
 }
 
 section {
-  float: left;
-  padding-left: 2em;
-  padding-right: 2em;
-  width: 33%;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+}
+
+#mobile {
 }
 
 footer {
   background-color: #fff;
   font-size: 0.7em;
   font-style: italic;
-  margin-left: 170px;
   padding: 1em;
   text-align: center;
 }
