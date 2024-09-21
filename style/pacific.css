@@ -3,179 +3,147 @@
 }
 
 body {
-  background-color: #90c7e3;
-  font-family: Arial, Helvetica, sans-serif;
-  margin: 0;
+  background-color: #eaeaea;
+  color: #666666;
+  font-family: Verdana, Arial, sans-serif;
 }
 
 #wrapper {
   background-color: #ffffff;
-  background: linear-gradient(white, lightblue);
+  background-image: linear-gradient(to bottom, #ffffff, #90c7e3);
+  background-repeat: no-repeat;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  min-width: 960px;
+  max-width: 2048px;
+  box-shadow: 3px 3px 3px #777;
 }
 
-#header-area {
-  padding: 1em;
+header {
+  background-color: #002171;
+  color: #ffffff;
+  font-family: Georgia, serif;
+  height: 120px;
 }
 
-#header-area a:link {
-  color: white;
+header a {
   text-decoration: none;
 }
 
-#header-area a:visited {
-  color: white;
+header a:link {
+  color: #ffffff;
 }
 
-#header-area a:hover {
+header a:visited {
+  color: #ffffff;
+}
+
+header a:hover {
   color: #90c7e3;
 }
 
 h1 {
+  font-size: 3em;
+  letter-spacing: 0.25em;
   text-align: center;
-  background-color: #002171;
-  margin: 0;
-  font-size: 1.5em;
-}
-
-nav {
-  align-items: center;
-  margin: 0;
-  font-size: 0.9em;
-  display: inline;
-  text-align: center;
-  background-color: white;
-}
-#nav-ul li {
   padding-top: 0.5em;
-  padding-bottom: 0.5em;
-  padding-left: 1em;
-  padding-right: 1em;
-  width: 100%;
-  border-bottom: 1px solid;
-}
-
-#nav-ul a:link {
-  color: #5c7fa3;
-  text-decoration: none;
-  margin: 0;
-}
-
-#nav-ul a:visited {
-  color: #344873;
-}
-
-#nav-ul a:hover {
-  color: #a52a2a;
-}
-
-#nav-ul {
-  margin: 0;
-  padding: 0;
-  container: flex;
-  flex-direction: column;
-}
-
-main {
-  padding-left: 2em;
-  padding-right: 2em;
-  display: block;
-  background-color: #ffffff;
-  margin-left: 170px;
-  overflow: auto;
 }
 
 h2 {
   color: #1976d2;
-  margin: 0%;
-  padding: 1%;
+  font-family: Georgia, serif;
 }
+
 h3 {
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family: Georgia, serif;
 }
-p {
-  color: #666666;
+
+nav {
+  float: left;
+  font-size: 1.2em;
+  font-weight: bold;
+  padding: 0;
+  position: fixed;
+  width: 160px;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+nav a:link {
+  color: #5c7fa3;
+}
+
+nav a:visited {
+  color: #344873;
+}
+
+nav a:hover {
+  color: #a52a2a;
+}
+
+nav ul {
+  list-style-type: none;
+  padding-left: 1em;
+}
+
+main {
+  background-color: #fff;
+  display: block;
+  margin-left: 170px;
+  overflow: auto;
+  padding-left: 2em;
+  padding-right: 2em;
 }
 
 dt {
+  color: #002171;
   font-weight: bold;
 }
 
-.resort {
-  font-size: 30px;
-  color: #1976d2;
-}
-
 .resort-address {
-  font-size: 30px;
   color: #1976d2;
-}
-
-#mobile {
-}
-
-footer p {
-  font-style: italic;
-  font-size: small;
-}
-
-footer {
-  text-align: center;
-  margin: 0%;
-  font-size: 15px;
-  background-color: white;
-  padding: 1em;
-}
-
-#address p {
-  padding: 0;
-  margin: 0;
-}
-
-#yurt-info {
-  column-count: 3;
-  display: flex;
-}
-
-#yurt-info section {
-  overflow: hidden;
-  padding-left: 0.5em;
-  padding-right: 0.5em;
-}
-
-#activity-info {
-  column-count: 3;
-  display: flex;
-  column-gap: 10%;
-}
-
-#yurt-hero {
-  background-image: url(../images/yurt.jpg);
-  background-size: 200%, 100%;
-  height: 300px;
-  background-repeat: no-repeat;
-  background-position: center;
+  font-size: 1.2em;
 }
 
 #home-hero {
-  background-image: url(../images/coast.jpg);
-  background-size: 200%, 100%;
   height: 300px;
+  background-image: url(../images/coast.jpg);
   background-repeat: no-repeat;
-  background-position: center;
+  background-size: 100% 100%;
+  margin-left: 170px;
+}
+
+#yurt-hero {
+  height: 300px;
+  background-image: url(../images/yurt.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  margin-left: 170px;
 }
 
 #trail-hero {
-  background-image: url(../images/trail.jpg);
-  background-size: 200%, 100%;
   height: 300px;
+  background-image: url(../images/trail.jpg);
   background-repeat: no-repeat;
-  background-position: center;
+  background-size: 100% 100%;
+  margin-left: 170px;
 }
 
-#sunset-image {
-  background-image: url("../images/sunset.jpg");
-  height: 72px;
-  background-position: right;
-  background-repeat: no-repeat;
-  background-size: 100%, 100%;
+section {
+  float: left;
+  padding-left: 2em;
+  padding-right: 2em;
+  width: 33%;
+}
+
+footer {
+  background-color: #fff;
+  font-size: 0.7em;
+  font-style: italic;
+  margin-left: 170px;
+  padding: 1em;
+  text-align: center;
 }
