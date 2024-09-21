@@ -145,6 +145,38 @@ dt {
   #desktop {
     display: inline;
   }
+  h1 {
+    font-size: 2em;
+    letter-spacing: 0.25em;
+  }
+  nav ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    padding-right: 2em;
+  }
+  nav li {
+    width: 12em;
+    border-bottom: none;
+  }
+  section {
+    padding-left: 2em;
+    padding-right: 2em;
+  }
+  #flow {
+    display: flex;
+    flex-direction: row;
+  }
+  #home-hero {
+    background-size: 100% 100%;
+  }
+  #yurt-hero {
+    background-size: 100% 100%;
+  }
+  #trail-hero {
+    background-size: 100% 100%;
+  }
 }
 
 section {
