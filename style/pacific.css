@@ -156,6 +156,28 @@ table tr:nth-of-type(even) {
   background-size: 200% 100%;
 }
 
+#res-hero {
+  height: 300px;
+  background-image: url(../images/ocean.jpg);
+  background-repeat: no-repeat;
+  background-size: 200% 100%;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  padding-left: 1em;
+  width: 80%;
+}
+
+form input {
+  margin-bottom: 0.5em;
+}
+
+form textarea {
+  margin-bottom: 0.5em;
+}
+
 @media screen and (max-width: 600px) {
   #desktop {
     display: none;
@@ -190,6 +212,22 @@ table tr:nth-of-type(even) {
   section {
     padding-left: 2em;
     padding-right: 2em;
+  }
+
+  form {
+    width: 60%;
+    display: grid;
+    gap: 1em;
+    column-count: 2;
+    column-width: 10em 1fr;
+  }
+
+  #mySubmit {
+    grid-column: 2 / 2;
+    width: 9em;
+  }
+  #res-hero {
+    background-size: 100% 100%;
   }
   #flow {
     display: flex;
